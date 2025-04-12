@@ -1,0 +1,11 @@
+require('dotenv').config();
+
+module.exports = {
+  TOKEN: process.env.TOKEN,
+  GUILD_ID: process.env.GUILD_ID,
+  VOICE_CHANNEL_ID: process.env.VOICE_CHANNEL_ID,
+  YETKILI_ROLE_ID: process.env.YETKILI_ROLE_ID,
+  activity: process.env.ACTIVITY,
+  type: process.env.TYPE,
+  status: process.env.STATUS
+};
